@@ -1,0 +1,119 @@
+&DO3SE_Config
+
+
+location%lat = 40.43
+
+location%lon = -3.7
+
+location%elev = 20
+
+location%albedo = 0.2
+
+location%Rsoil = 200
+
+
+location%OTC = .false.
+
+location%z_u = 30.0
+
+location%z_O3 = 30.0
+
+
+
+SMD%soil_texture = "loam"
+
+SMD%root = 0.75
+
+SMD%source = "disabled"
+
+
+
+LCC%nL = 1
+
+LCC%nLC = 1
+
+
+LCC%LCs(1)%name = "Bangor Birch"
+
+
+LCC%LCs(1)%height = 1.0
+
+LCC%LCs(1)%Lm = 0.02
+
+LCC%LCs(1)%Y = 6.0
+
+
+LCC%LCs(1)%season%growing_season_method = "all year"
+
+
+LCC%LCs(1)%season%accumulation_period_method = "growing season"
+
+
+LCC%LCs(1)%season%LAI_a = 3.0
+
+LCC%LCs(1)%season%LAI_b = 3.0
+
+LCC%LCs(1)%season%LAI_c = 3.0
+
+LCC%LCs(1)%season%LAI_d = 3.0
+
+LCC%LCs(1)%season%LAI_1 = 15
+
+LCC%LCs(1)%season%LAI_2 = 30
+
+
+LCC%LCs(1)%season%SAI_method = "forest"
+
+
+LCC%LCs(1)%gsto%fmin = 0.1
+
+LCC%LCs(1)%gsto%gmax = 196.0
+
+
+LCC%LCs(1)%gsto%method = "photosynthesis"
+
+
+LCC%LCs(1)%gsto%f_phen_method = "disabled"
+
+
+LCC%LCs(1)%gsto%leaf_f_phen_method = "disabled"
+
+
+LCC%LCs(1)%gsto%f_light_method = "disabled"
+
+
+LCC%LCs(1)%gsto%f_temp_method = "disabled"
+
+
+LCC%LCs(1)%gsto%f_VPD_method = "disabled"
+
+
+LCC%LCs(1)%gsto%f_SW_method = "disabled"
+
+
+LCC%LCs(1)%gsto%f_O3_method = "disabled"
+
+
+LCC%LCs(1)%gsto%VPD_crit = 1000.0
+
+
+LCC%LCs(1)%pn_gsto%g_sto_0 = 30000.0
+
+LCC%LCs(1)%pn_gsto%m = 8.3
+
+LCC%LCs(1)%pn_gsto%V_J_method = "constant"
+
+LCC%LCs(1)%pn_gsto%V_cmax_25 = 50
+
+LCC%LCs(1)%pn_gsto%J_max_25 = 75
+
+LCC%LCs(1)%pn_gsto%Tleaf_method = "ambient"
+
+LCC%LCs(1)%pn_gsto%O3_method = "disabled"
+
+LCC%LCs(1)%pn_gsto%K_z = 24
+
+LCC%LCs(1)%pn_gsto%F_0 = 5
+
+
+/
