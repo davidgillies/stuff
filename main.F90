@@ -1,4 +1,4 @@
-program wooo
+program call_do3se
     use do3se_main
     implicit none
       INTEGER LON,LAT,NIV
