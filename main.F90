@@ -32,4 +32,4 @@ program call_do3se
       ENDDO
     call run_do3se(T3D, PL, RINC, REXT, RB, RSTO, RSUR, RA, RA_C, RGS)
 
-end program wooo
+end program call_do3se
